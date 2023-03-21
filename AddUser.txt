@@ -28,4 +28,14 @@ AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.co
 ''Invalid input - missing password
 AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
 
+Test case phase phase 2
+
+''Valid input
+AddUser "John", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+
+''Invalid input - missing Username
+AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+
+''Invalid input - missing password
+AddUser "Peter", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
  
